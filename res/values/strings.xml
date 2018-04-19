@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DirectoryApps</string>
+    <string name="action_settings">Tentang</string>
+    <array name="bagian">
+        <item>IT Development</item>
+        <item>IT Support</item>
+        <item>IT Research and Development</item>
+        <item>Marketing</item>
+        <item>Human Resource</item>
+    </array>
+    <string name="tambah">Tambah Data Karyawan</string>
+    <string name="nama">Masukan Nama Karyawan</string>
+    <string name="no_telp">Masukan No Telepon</string>
+    <string name="dept">Pilih Departemen</string>
+    <string name="tambah_karyawan">Tambah</string>
+    <string name="lihat">Lihat Data Karyawan</string>
+    <string name="alamat">Masukan Alamat</string>
+    <string name="simpan">Simpan</string>
+    <string name="update">Update Data Karyawan</string>
+    <string name="about">This Directory application is dedicated to Mr. Julien Millot \n
+Hopefully what I have made can be taken into consideration</string>
+    <string name="info">1. Untuk menambah <b><Font color="#FFEC2517">Data / Create </Font></b> Silahkan tekan tombol + (Floating Button) \n
+        2. Untuk <b><Font color="#FFEC2517">Edit dan Delete </Font></b> Data silahkan <b><Font color="#FFEC2517"> Hold on List data </Font></b> </string>
+</resources>

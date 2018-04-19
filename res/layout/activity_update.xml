@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/txt_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:visibility="gone"/>
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@android:drawable/ic_menu_gallery" />
+    </LinearLayout>-->
+
+    <EditText
+        android:id="@+id/txt_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="text|textCapWords" />
+
+    <EditText
+        android:id="@+id/txt_bagian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bagian"
+        android:inputType="text|textCapWords" />
+
+    <EditText
+        android:id="@+id/txt_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Alamat"
+        android:inputType="text|textCapWords|textMultiLine" />
+    <EditText
+        android:id="@+id/txt_notelp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="No Telepon"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="0.5"
+            android:background="@android:color/holo_blue_light"
+            android:text="Simpan" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@android:color/holo_orange_light"
+            android:text="Batal" />
+
+    </LinearLayout>
+</LinearLayout>
