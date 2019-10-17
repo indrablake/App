@@ -18,6 +18,7 @@ public class UpdateActivity extends AppCompatActivity {
     Button btn_submit, btn_cancel;
     DBHelper SQLite = new DBHelper(UpdateActivity.this);
     String id, nama, bagian, alamat, telp;
+    
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update);

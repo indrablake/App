@@ -18,7 +18,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     private static final int DATABASE_VERSION = 2;
 
-    static final String DATABASE_NAME = "directory.db";
+    static final String DATABASE_NAME = "latihan.db";
 
     public static final String TABLE_SQLite = "kontak";
 

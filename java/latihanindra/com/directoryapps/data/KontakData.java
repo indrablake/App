@@ -1,7 +1,7 @@
 package indrablake.com.directoryapps.data;
 
 /**
- * Created by indrablake on 17/04/2018.
+ * Created by indrablake on 17/10/2019.
  */
 
 public class KontakData {

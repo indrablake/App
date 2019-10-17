@@ -30,7 +30,7 @@ import indrablake.com.directoryapps.R;
 
 
 /**
- * Created by indrablake on 17/04/2018.
+ * Created by indrablake on 17/10/2019.
  */
 
 public class KontakAdapter extends BaseAdapter {
